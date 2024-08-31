@@ -12,4 +12,9 @@
   margin: 0;
 }
 
+@layer base {
+  footer ul li img {
+    width: 100%;
+  }
+}
 

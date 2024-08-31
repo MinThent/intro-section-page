@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function NavItem({label}) {
+export default function NavItem({ label, children }) {
   return (
     <li>
-        <a>
-            {label}
-        </a>
+      <a>
+        {children && children}
+
+        {label}
+      </a>
     </li>
-  )
+  );
 }
