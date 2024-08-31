@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Footer() {
+export default function LogoBar() {
   return (
-    <footer className="mx-auto">
-      <ul className="flex flex-row justify-center items-center gap-5 px-4 py-8 max-w-fit">
+    <footer className="justify-start mx-auto mt-6 md:mt-8">
+      <ul className="flex flex-row justify-center items-center gap-3 lg:gap-10 px-4 py-2 md:p-0 max-w-fit">
         <li>
           <img src="client-databiz.svg" alt="databiz logo" />
         </li>
