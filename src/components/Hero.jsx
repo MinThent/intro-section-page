@@ -14,7 +14,7 @@ export default function Hero() {
             processes, create team rituals, and watch productivity soar.
           </p>
           <a
-            className="bg-black hover:bg-white px-6 py-3 border border-black rounded-xl font-medium text-sm text-white hover:text-black"
+            className="bg-black hover:bg-white px-6 py-3 border border-black rounded-xl font-medium text-sm text-white hover:text-black transition duration-300"
             href="#"
           >
             Learn More

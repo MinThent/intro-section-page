@@ -176,7 +176,7 @@ export default function NavBar({
                 <NavItem label={"About"} />
               </ul>
               <ul className="flex flex-col items-center gap-4 py-2">
-                <button className={`w-5/6 text-white`}>Login</button>
+                <button className={`w-5/6 text-black`}>Login</button>
                 <button className={`p-2 border border-black rounded-xl w-5/6`}>
                   Register
                 </button>
